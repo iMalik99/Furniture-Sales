@@ -1,37 +1,64 @@
-# 🪑 Furniture Sales Analysis Dashboard
+#  Furniture Sales Overview
 
-## 📌 Overview
-This project explores sales data from a furniture retailer using Microsoft Excel to uncover insights into revenue performance, profitability, and customer purchasing behavior. The project simulates aspects of a BI dashboard and also draws parallels with SQL-style data querying.
+## Overview
+The **Furniture Sales Overview Dashboard** summarizes sales performance, shipping patterns, and regional distribution across the U.S. It provides decision-makers with key metrics, trends, and geographic insights to improve sales strategies, optimize shipping operations, and identify growth opportunities.
 
-## 📊 Objectives
-- Analyze sales and profit trends by product category and region.
-- Identify the most profitable and least profitable product lines.
-- Evaluate customer segments and their impact on revenue.
-- Calculate shipping duration and its influence on sales.
+## Objectives
+- Track **sales, profit, and quantity sold** for the selected region and customer segment.
+- Identify **sales trends over time**.
+- Understand **shipping preferences** and delivery timelines.
+- Compare **sales performance across states and cities**.
+- Highlight **best-selling categories**.
 
-## 🗂️ Dataset Structure
-- **Order Info:** Order ID, Order Date, Ship Date, Ship Mode
-- **Customer Info:** Name, Segment, Region
-- **Product Info:** Category, Sub-Category, Product Name
-- **Metrics:** Sales, Quantity, Profit, Duration
+## Data Source
+- **Primary Source:** U.S. retail furniture sales dataset.
+- **Data Coverage:** Transactions include product category, shipping details, sales revenue, and profit margins.
+- **Data Cleaning Steps:** Standardized names, validated profit calculations, corrected date fields, and removed missing data.
 
-## 🛠 Tools & Skills Used
-- **Microsoft Excel**
-  - Pivot Tables & Slicers
-  - IF, TEXT, MONTH, VLOOKUP
-  - Conditional Formatting
-  - Charts (Column, Line, Pie)
-- **SQL Concepts Applied**
-  - Aggregations (SUM, AVG)
-  - Filtering (WHERE conditions)
-  - Grouping (GROUP BY Category, Region)
-  - Date parsing (`MONTH(Order Date)`)
+## Key Metrics (KPIs)
+1. **Sales:** `$49.7K`
+2. **Profit:** `$3.2K`
+3. **Quantity Sold:** `476`
+4. **Year-over-Year Change:**
+   - Sales: ▲ 76%
+   - Profit: ▼ 417%
+   - Quantity: ▲ 94%
 
-## 💡 Key Insights
-- Chairs and tables are top-selling items but not always the most profitable.
-- West region dominates sales; however, the East shows higher profit margins.
-- Most sales come from the "Consumer" segment, followed by "Corporate."
-- Orders shipped within 3–5 days have better profit margins.
+## Visualizations & Insights
+### 1. KPI Cards
+Quick look at sales, profit, and units.
+
+### 2. Shipping Mode
+- Standard Class: 52% of orders.
+- Fast shipping less common.
+
+### 3. Best-Selling Categories
+- Chairs, Tables, Furnishings lead.
+
+### 4. Sales Trend
+- December peak, April & October high.
+
+### 5. Shipping Duration
+- Most within 4–5 days.
+
+### 6. Sales by State
+- California leads.
+
+### 7. Top Cities
+- Seattle, Los Angeles, San Diego top list.
+
+## Key Findings
+- December is the strongest month.
+- West Coast dominates sales.
+- Chairs in high demand.
+- Profit margins dropping despite sales growth.
+
+## Potential Actions
+- Target top states & cities.
+- Improve profit margins via cost control.
+- Seasonal campaigns before peaks.
+- Offer premium shipping options.
+
 
 ## 📁 Files Included
 - `Furniture Sales.xlsx`: Raw and processed data
