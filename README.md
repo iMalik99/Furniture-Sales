@@ -62,3 +62,4 @@ Quick look at sales, profit, and units.
 
 ## 📁 Files Included
 - `Furniture Sales.xlsx`: Raw and processed data
+- `furniture.png`: Dashboard View
